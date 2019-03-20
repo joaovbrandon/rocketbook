@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
-    "lint": "./node_modules/.bin/eslint ./src --ext .js"
+    "lint": "./node_modules/.bin/eslint ./src --ext .js",
+    "build": "webpack --mode production"
   },
   "husky": {
     "hooks": {
