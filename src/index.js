@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 
+// Styles
+import './styles/main.scss';
+
+// Components
+import Header from './components/Header';
+
 class App extends Component {
   state = {};
 
   render() {
-    return <h1>Reactbook!</h1>;
+    return <Header title="Rocketbook" />;
   }
 }
 

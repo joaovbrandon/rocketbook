@@ -1,0 +1,16 @@
+@import "../../styles/colors.scss";
+
+header {
+  background-color: $blue-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+
+  h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: $white-color;
+  }
+}
