@@ -1,4 +1,4 @@
-<p align="left"><img src="logo/horizontalv2.png" alt="rocketbook" height="120px"></p>
+<p align="left"><img src="./assets/rocketbook-logo.png" alt="Rocketbook" height="120px"></p>
 
 # Rocketbook
 
@@ -6,7 +6,7 @@ A simple UI developed with ReactJS from scratch.
 
 See here [joaaoeu.github.io/rocketbook](https://joaaoeu.github.io/rocketbook/).
 
-![Screenshot Rocketbook](./screenshot-rocketbook.png "Screenshot Rocketbook")
+![Rocketbook Screenshot](./assets/rocketbook-screenshot.png "Rocketbook Screenshot")
 
 ## How to run
 

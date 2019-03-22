@@ -54,7 +54,7 @@ export default class App extends Component {
   render() {
     return (
       <Fragment>
-        <Header title="Rocketbook" />
+        <Header />
         {this.renderPosts()}
       </Fragment>
     );
