@@ -1,3 +1,5 @@
+<p align="left"><img src="logo/horizontalv2.png" alt="rocketbook" height="120px"></p>
+
 # Rocketbook
 
 A simple UI developed with ReactJS from scratch.
