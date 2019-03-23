@@ -4,6 +4,8 @@
   "description": "A simple UI developed with ReactJS from scratch",
   "main": "src/index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "cp -r ./public ./build && gh-pages -d build",
     "start": "webpack-dev-server --mode development",
     "lint": "./node_modules/.bin/eslint ./src --ext .js",
     "build": "webpack --mode production"
@@ -54,6 +56,7 @@
     "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
